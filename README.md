@@ -1,40 +1,31 @@
-# T&C Generator
+# terms
+> *legal copy, in seconds.*
 
+&nbsp;
+
+## what is it
 An AI-powered generator that creates clear Terms & Conditions for startups, side projects, and apps in seconds.
 
-## Stack
+&nbsp;
 
-- Next.js (App Router)
-- Mistral AI via Vercel AI SDK
-- TypeScript
-- Tailwind CSS
-- Framer Motion
+## stack
+<table>
+  <tr>
+    <td align="center"><img src="https://i.pinimg.com/736x/93/8a/55/938a551e5b56fe9fd818e47b456e9f50.jpg" alt="Next.js" width="36" height="36"/></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/132372032?v=4" width="36" height="36" alt="Mistral"/></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/67109815?v=4" width="36" height="36" alt="Tailwind"/></td>
+    <td align="center"><img src="https://framerusercontent.com/images/3aQX5dnH5Yqgsn98QXKF2ZXxIE.png" width="36" height="36" alt="Framer Motion"/></td>
+  </tr>
+</table>
 
-## Getting Started
+| layer | tech |
+|---|---|
+| framework | Next.js (App Router) |
+| ai | Mistral via Vercel AI SDK |
+| styles | Tailwind CSS |
+| animation | Framer Motion |
 
-1. Clone the repository and install dependencies:
-```bash
-   git clone https://github.com/Lukas1098/terms.git
-   cd terms
-   pnpm install
-```
+&nbsp;
 
-2. Create a `.env.local` file and add your Mistral API key:
-```bash
-   MISTRAL_API_KEY=your_key_here
-```
-
-   Get your key at [console.mistral.ai](https://console.mistral.ai).
-
-3. Start the development server:
-```bash
-   pnpm dev
-```
-
-## Usage
-
-Enter a description of your project or app, click Generate, and download the result as a Markdown file.
-
-## License
-
+## license
 MIT
